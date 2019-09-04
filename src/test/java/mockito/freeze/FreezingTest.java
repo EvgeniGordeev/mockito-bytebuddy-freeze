@@ -41,7 +41,7 @@ public class FreezingTest {
         static FreezingTest freezingTestMock = mock(FreezingTest.class);
 
         @Bean
-        public FreezingTest contractDeliveryReportDAO() {
+        public FreezingTest freezingTestMockBean() {
             return freezingTestMock;
         }
     }

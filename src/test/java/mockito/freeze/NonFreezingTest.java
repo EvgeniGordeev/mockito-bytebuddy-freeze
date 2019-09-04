@@ -39,7 +39,7 @@ public class NonFreezingTest {
     static class MockBeans {
 
         @Bean
-        public NonFreezingTest contractDeliveryReportDAO() {
+        public NonFreezingTest nonFreezingTestMockBean() {
             return mock(NonFreezingTest.class);
         }
     }
