@@ -17,10 +17,25 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-inline</artifactId>
-        </dependency>
+
     </dependencies>
+
+    <profiles>
+        <profile>
+            <id>with-mockito-inline</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.mockito</groupId>
+                    <artifactId>mockito-inline</artifactId>
+                </dependency>
+            </dependencies>
+        </profile>
+        <profile>
+            <id>without-mockito-inline</id>
+        </profile>
+    </profiles>
 
 </project>
