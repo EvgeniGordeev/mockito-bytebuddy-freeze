@@ -29,9 +29,9 @@ public class FreezingTest {
     }
 
     @Configuration
-    public static class MockBeans {
+    static class MockBeans {
 
-        public static FreezingTest freezingTestMock = mock(FreezingTest.class);
+        static FreezingTest freezingTestMock = mock(FreezingTest.class);
 
         @Bean
         public FreezingTest freezingTestMockBean() {
