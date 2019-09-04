@@ -12,13 +12,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-/**
- * AClass.
- *
- * @author evgeni.gordeev
- * @version 10
- * @since 2019-08-09
- */
 @SpringBootTest(
     classes = {
         FreezingTest.MockBeans.class},
