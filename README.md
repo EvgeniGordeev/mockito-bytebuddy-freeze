@@ -1,5 +1,5 @@
 # mockito-bytebuddy-freeze
-An Example of freezing test in Mockito Inline 2.23.4. Tested in Java 8 and Java 11. 
+An Example of freezing SpringBoot test in Mockito Inline 2.23.4 (Mockito 3 is not better). Reproduced in Java 8 and Java 11. 
 
 `mvn test` is going to freeze.
 
